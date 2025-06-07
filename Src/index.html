@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberHacks - Vendas de Apps Injector para Free Fire</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CyberHacks</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#support">Suporte</a></li>
+                <li><a href="#login" id="login-link">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Produtos</h2>
+            <div class="product">
+                <img src="https://pinimg.com/your-image-url1.jpg" alt="Painel Injector Nonroot">
+                <h3>Painel Injector Nonroot</h3>
+                <p>Preço: R$ 9,99 por 7 dias</p>
+                <button class="info-btn" onclick="toggleInfo('info1')">+ Informações</button>
+                <div class="info" id="info1">
+                    <p>Descrição do produto: Este painel permite injeções não-root para Free Fire.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://pinimg.com/your-image-url2.jpg" alt="Painel Injector Sd Card Nonroot">
+                <h3>Painel Injector Sd Card Nonroot</h3>
+                <p>Preço: R$ 19,99 por 7 dias</p>
+                <button class="info-btn" onclick="toggleInfo('info2')">+ Informações</button>
+                <div class="info" id="info2">
+                    <p>Descrição do produto: Ideal para injeções em cartão SD sem root.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://pinimg.com/your-image-url3.jpg" alt="Painel Auxiliar Nonroot">
+                <h3>Painel Auxiliar Nonroot</h3>
+                <p>Preço: R$ 39,99 por 7 dias</p>
+                <button class="info-btn" onclick="toggleInfo('info3')">+ Informações</button>
+                <div class="info" id="info3">
+                    <p>Descrição do produto: Auxilia na injeção de hacks sem necessidade de root.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="support">
+            <h2>Suporte</h2>
+            <form id="support-form">
+                <label for="email">Seu Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Enviar Suporte</button>
+            </form>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CyberHacks. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
